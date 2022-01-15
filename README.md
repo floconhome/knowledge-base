@@ -1,5 +1,33 @@
-**Frija - Samsung firmware downloader/checker**
---
+
+# Hello Word
+
+> Follow this hello Word dkkzkjr fkifif fkfikfjf fjfkfkf fjfkfjf fkfkfbfkf fkfijf fkfujbf f
+
+**In this article**
+
+[Go to Real Cool Heading section](#real-cool-heading)
+
+Introd
+Create a
+Cfrate b
+- djjd djjkf
+- dkkekkee
+Downlaod
+Merign
+Qdjdjr
+
+---
+
+
+
+
+
+
+
+
+
+### Frija - Samsung firmware downloader/checker
+
 - github repo: https://github.com/SlackingVeteran/frija/releases
 - XDA forum link: https://forum.xda-developers.com/t/tool-frija-samsung-firmware-downloader-checker.3910594/
 - a nice tool to download latest stock firmware of a samsung mobile; be careful: only latest firmware, not oldest than latest one; I use it for my phones, when I need a stock firmware to work on it or to recover my phones
@@ -9,8 +37,8 @@
 ![Frija main window](/screenshot/frija/frija.main.window.png.settings.png)
 ![Frija main window](/screenshot/frija/frija.settings.png)
   
-**Sublime Text**
---
+## Sublime Text
+
 - web site: https://www.sublimetext.com/
 - this greatful text tool is usefull for organising note taking and project code; I use it in professionnal context to organise my notes from a folder on my computer, read some data text files; in personal context, it helps me for android project, reading text and binary file; moreover, I especially like the dark theme and the syntaxic colors theme: it is eye relaxing
 - in the second screenshot, I present you what is usefull for my usage:
@@ -22,8 +50,8 @@
 ![Sublime Text main window](/screenshot/sublimetext/sublimetext.main.window.png)
 ![Sublime Text main window with explanations](/screenshot/sublimetext/sublimetext.main.window.explanations.png)
 
-**Ditto Clipboard Manager**   
---
+# Ditto Clipboard Manager
+
 - web site: https://ditto-cp.sourceforge.io/
 - github repo: https://github.com/sabrogden/Ditto/
 - once installed, it discreet stays in the notification bar; you call it with a keyboard shorcut, default defined on "CTRL + ù" (can be modified); it is a great tool for professionnel workers who needs to copy/paste and search for data (text, pictures, and so on) all along their wroking days; it is also a great tools in a personal use for same reason; I use it since 2017: Jean-Marc, a co-worker in the professionnal team where I was, told me about it, and since then, I do not do without it 😉
