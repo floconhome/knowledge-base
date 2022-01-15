@@ -5,9 +5,9 @@
 
 **Summary** _(alphabetical sort)_
 
-[Ditto Clipboard Manager](#ditto-clipboard-manager)  
-[Frija - Samsung firmware downloader](#frija-samsung-firmware-downloader)  
-[Sublime Text](#sublime-text)  
+- [Ditto Clipboard Manager](#ditto-clipboard-manager)
+- [Frija - Samsung firmware downloader](#frija---samsung-firmware-downloader)
+- [Sublime Text](#sublime-text)
   
   
 ---  
