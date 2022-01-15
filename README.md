@@ -1,7 +1,9 @@
 
 # Floconhome KB 
 
-> This is some stuff, softwares I use, for professionnal or personnal use, some tips, and so on, I agregate and share to you. Have fun :wink: !
+> This is some stuff, tips, softwares, useful web links I use for professionnal or personnal use, I agregate and share to you.
+
+Have fun :wink: !
 
 **Summary** _(alphabetical sort)_
 
