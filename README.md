@@ -3,9 +3,10 @@
 **Sublime Text**
 --
 - web site: https://www.sublimetext.com/
-- blaba
+- this greatfull text is usefull for 
   
 ![Sublime Text main window](/screenshot/sublimetext/sublimetext.main.window.png)
+![Sublime Text main window with explanations](/screenshot/sublimetext/sublimetext.main.window.explanations.png)
 
 **Ditto Clipboard Manager**   
 --
