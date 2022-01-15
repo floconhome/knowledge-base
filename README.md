@@ -2,5 +2,6 @@
 
 **Ditto Clipboard Manager**   
 web site: https://ditto-cp.sourceforge.io/  
-https://github.com/floconhome/knowledge-base/blob/main/screenshot/ditto/ditto.notification.png
-https://github.com/floconhome/knowledge-base/blob/main/screenshot/ditto/ditto.main.window.png
+github repo: https://github.com/sabrogden/Ditto/  
+![ditto main window](/screenshot/ditto/ditto.main.window.png)
+![ditto main window](/screenshot/ditto/ditto.notification.png)
