@@ -1,3 +1,11 @@
+**Frija - Samsung firmware downloader/checker**
+--
+- github repo: https://github.com/SlackingVeteran/frija/releases
+- XDA forum link: https://forum.xda-developers.com/t/tool-frija-samsung-firmware-downloader-checker.3910594/
+- a nice tool to download latest stock firmware of a samsung mobile
+
+![Sublime Text main window](/screenshot/sublimetext/sublimetext.main.window.png)
+  
 **Sublime Text**
 --
 - web site: https://www.sublimetext.com/
