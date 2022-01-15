@@ -5,6 +5,10 @@
 - a nice tool to download latest stock firmware of a samsung mobile
 
 ![Sublime Text main window](/screenshot/sublimetext/sublimetext.main.window.png)
+frija.main.window.png
+frija.main.window.png.search.result.png
+frija.main.window.png.settings.png
+frija.settings.png
   
 **Sublime Text**
 --
