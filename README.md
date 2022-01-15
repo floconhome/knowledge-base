@@ -3,7 +3,7 @@
 **Sublime Text**
 --
 - web site: https://www.sublimetext.com/
-- this greatfull text tool is usefull for organising note taking and project code; I use it in professionnal context to organise my notes from a folder on my computer, read some data text files; in personal context, it helps me for android project, reading text and binary file; moreover, I especially like the dark theme and the syntaxic colors theme: it is eye relaxing
+- this greatful text tool is usefull for organising note taking and project code; I use it in professionnal context to organise my notes from a folder on my computer, read some data text files; in personal context, it helps me for android project, reading text and binary file; moreover, I especially like the dark theme and the syntaxic colors theme: it is eye relaxing
 - in the second screenshot, I present you what is usefull for my usage:
 1. the vertical left banner help me see my folders/files tree, quickly having a look where I want to go
 1. the main window, in dark theme, with syntaxic color theme
