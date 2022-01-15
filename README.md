@@ -1,17 +1,19 @@
 
-# Hello Word
+# Floconhome KB 
 
-> Follow this hello Word dkkzkjr fkifif fkfikfjf fjfkfkf fjfkfjf fkfkfbfkf fkfijf fkfujbf f
+> This is some stuff, softwares I use, for professionnal or personnal use, some tips, and so on, I agregate and share to you. Have fun :wink: !
 
-**In this article**
+**Summary** _(alphabetical sort)_
 
 [Ditto Clipboard Manager](#ditto-clipboard-manager)  
-[Sublime Text](#sublime-text)
-    
-    
-    
+[Frija - Samsung firmware downloader](#frija-samsung-firmware-downloader)  
+[Sublime Text](#sublime-text)  
+  
+  
+---  
+  
 
-## Frija - Samsung firmware downloader/checker
+## Frija - Samsung firmware downloader
 - github repo: https://github.com/SlackingVeteran/frija/releases
 - XDA forum link: https://forum.xda-developers.com/t/tool-frija-samsung-firmware-downloader-checker.3910594/
 - a nice tool to download latest stock firmware of a samsung mobile; be careful: only latest firmware, not oldest than latest one; I use it for my phones, when I need a stock firmware to work on it or to recover my phones
