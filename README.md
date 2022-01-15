@@ -5,26 +5,9 @@
 
 **In this article**
 
-[Go to Real Cool Heading section](#real-cool-heading)
-
-Introd
-Create a
-Cfrate b
-- djjd djjkf
-- dkkekkee
-Downlaod
-Merign
-Qdjdjr
+[Ditto Clipboard Manager](#ditto-clipboard-manager)
 
 ---
-
-
-
-
-
-
-
-
 
 ### Frija - Samsung firmware downloader/checker
 
@@ -37,7 +20,7 @@ Qdjdjr
 ![Frija main window](/screenshot/frija/frija.main.window.png.settings.png)
 ![Frija main window](/screenshot/frija/frija.settings.png)
   
-## Sublime Text
+### Sublime Text
 
 - web site: https://www.sublimetext.com/
 - this greatful text tool is usefull for organising note taking and project code; I use it in professionnal context to organise my notes from a folder on my computer, read some data text files; in personal context, it helps me for android project, reading text and binary file; moreover, I especially like the dark theme and the syntaxic colors theme: it is eye relaxing
@@ -50,7 +33,7 @@ Qdjdjr
 ![Sublime Text main window](/screenshot/sublimetext/sublimetext.main.window.png)
 ![Sublime Text main window with explanations](/screenshot/sublimetext/sublimetext.main.window.explanations.png)
 
-# Ditto Clipboard Manager
+### Ditto Clipboard Manager
 
 - web site: https://ditto-cp.sourceforge.io/
 - github repo: https://github.com/sabrogden/Ditto/
