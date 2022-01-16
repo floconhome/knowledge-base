@@ -17,6 +17,20 @@ Have fun :wink: !
 ---  
   
 
+## bb
+```
+exec &>busybox.1.34.1-osm0sis.help.txt
+
+for applet in $(busybox --list)
+do
+  echo "####################"
+  echo "# $applet"
+  echo "####################"
+  busybox $applet --help
+  echo
+done
+```
+
 ## android Activity manager (am) help
 - extracted from Android 10 from G960FXXSHFUJ2 stock firmware on 2022-01-16
 - go to [am.help.txt](/files/am.help.txt)
