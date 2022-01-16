@@ -40,6 +40,7 @@ done
 - go to [help file](/files/am.help.txt)
 
 ## android getprop usage
+:bulb: I use it in shell script to get a specific value of an adroid prop, like firmware build version, target sdk version, abi list, and so son
 - just enter `getprop` in command line to list all actives/running props with its corresponding value; output example (extract):
 ```shell
 [ro.vendor.build.fingerprint]: [samsung/starltexx/starlte:10/QP1A.190711.020/G960FXXSHFUJ2:user/release-keys]
@@ -79,9 +80,19 @@ done
 ```shell
 samsung/starltexx/starlte:10/QP1A.190711.020/G960FXXSHFUJ2:user/release-keys
 ```
-- instead of prop value, we can get type or context, useful in shell script:
+- instead of prop value, we can get type or context:
   - `getprop -T ro.vendor.build.fingerprint` will return `string`
   - `getprop -Z ro.vendor.build.fingerprint` will return `u:object_r:vendor_default_prop:s0`
+- of course, we can pipe the `getprop` command to `grep` to get a list of prop containing a searching string; for example: `getprop | grep -i abi` will return:
+```shell
+[ro.product.cpu.abi]: [arm64-v8a]
+[ro.product.cpu.abilist]: [arm64-v8a,armeabi-v7a,armeabi]
+[ro.product.cpu.abilist32]: [armeabi-v7a,armeabi]
+[ro.product.cpu.abilist64]: [arm64-v8a]
+[ro.vendor.product.cpu.abilist]: [arm64-v8a,armeabi-v7a,armeabi]
+[ro.vendor.product.cpu.abilist32]: [armeabi-v7a,armeabi]
+[ro.vendor.product.cpu.abilist64]: [arm64-v8a]
+```
 
 ## android Package Manager (cmd package) help
 - extracted from Android 10 from G960FXXSHFUJ2 stock firmware on 2022-01-16, thanks to this commande line: `cmd package > /data/media/0/cmd.package.help.txt`
