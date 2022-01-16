@@ -7,6 +7,8 @@ Have fun :wink: !
 
 **Summary** _(alphabetical sort)_
 
+- [android Activity manager (am) help](#android-activity-manager-am-help)
+- [android Package Manager (cmd package) help](#android-package-manager-cmd-package-help)
 - [Ditto Clipboard Manager](#ditto-clipboard-manager)
 - [Frija - Samsung firmware downloader](#frija---samsung-firmware-downloader)
 - [Sublime Text](#sublime-text)
@@ -14,6 +16,15 @@ Have fun :wink: !
   
 ---  
   
+
+## android Activity manager (am) help
+- extracted from Android 10 from G960FXXSHFUJ2 stock firmware on 2022-01-16
+- go to [am.help.txt](/files/am.help.txt)
+
+## android Package Manager (cmd package) help
+- extracted from Android 10 from G960FXXSHFUJ2 stock firmware on 2022-01-16
+- go to [cmd.package.help.txt](/files/cmd.package.help.txt)
+
 
 ## Frija - Samsung firmware downloader
 - github repo: https://github.com/SlackingVeteran/frija/releases
