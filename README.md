@@ -9,7 +9,7 @@ Have fun :wink: !
 
 - [android Activity manager (am) help](#android-activity-manager-am-help)
 - [android Busybox 1.34.1-osm0sis help](#android-busybox-1341-osm0sis-help)
-- [## android getprop usage](### android-getprop-usage)
+- [android getprop usage](#android-getprop-usage)
 - [android Package Manager (cmd package) help](#android-package-manager-cmd-package-help)
 - [Ditto Clipboard Manager](#ditto-clipboard-manager)
 - [Frija - Samsung firmware downloader](#frija---samsung-firmware-downloader)
