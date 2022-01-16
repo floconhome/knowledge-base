@@ -80,7 +80,7 @@ done
 - instead of prop value, we can get type or context:
   - for _type_: `getprop -T ro.vendor.build.fingerprint` will return `string`
   - for _context_: `getprop -Z ro.vendor.build.fingerprint` will return `u:object_r:vendor_default_prop:s0`
-- of course, we can pipe the `getprop` command to `grep` to get a list of prop containing a searching string; for example: `getprop | grep -i abi` will return:
+- of course, we can pipe the `getprop` command to `grep` to get a props list containing a searched string; for example: `getprop | grep -i abi` will return:
 ```shell
 [ro.product.cpu.abi]: [arm64-v8a]
 [ro.product.cpu.abilist]: [arm64-v8a,armeabi-v7a,armeabi]
