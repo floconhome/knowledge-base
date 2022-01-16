@@ -8,6 +8,7 @@ Have fun :wink: !
 **Summary** _(alphabetical sort)_
 
 - [android Activity manager (am) help](#android-activity-manager-am-help)
+- [android Busybox 1.34.1-osm0sis help]()
 - [android Package Manager (cmd package) help](#android-package-manager-cmd-package-help)
 - [Ditto Clipboard Manager](#ditto-clipboard-manager)
 - [Frija - Samsung firmware downloader](#frija---samsung-firmware-downloader)
@@ -17,8 +18,9 @@ Have fun :wink: !
 ---  
   
 
-## bb
-```
+## android Busybox 1.34.1-osm0sis help
+- extracted with this script
+```shell
 exec &>busybox.1.34.1-osm0sis.help.txt
 
 for applet in $(busybox --list)
@@ -30,6 +32,7 @@ do
   echo
 done
 ```
+- go to [help file](/files/busybox.1.34.1-osm0sis.help.txt)
 
 ## android Activity manager (am) help
 - extracted from Android 10 from G960FXXSHFUJ2 stock firmware on 2022-01-16
