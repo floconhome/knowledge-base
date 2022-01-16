@@ -78,8 +78,8 @@ done
 ```
 - we can get just one prop at time by entering target prop, for example `getprop ro.vendor.build.fingerprint` will return `samsung/starltexx/starlte:10/QP1A.190711.020/G960FXXSHFUJ2:user/release-keys`
 - instead of prop value, we can get type or context:
-  - `getprop -T ro.vendor.build.fingerprint` will return `string`
-  - `getprop -Z ro.vendor.build.fingerprint` will return `u:object_r:vendor_default_prop:s0`
+  - for type:`getprop -T ro.vendor.build.fingerprint` will return `string`
+  - for context: `getprop -Z ro.vendor.build.fingerprint` will return `u:object_r:vendor_default_prop:s0`
 - of course, we can pipe the `getprop` command to `grep` to get a list of prop containing a searching string; for example: `getprop | grep -i abi` will return:
 ```shell
 [ro.product.cpu.abi]: [arm64-v8a]
