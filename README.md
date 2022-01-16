@@ -7,6 +7,8 @@ Have fun :wink: !
 
 **Summary** _(alphabetical sort)_
 
+- [android Activity manager (am) help]()
+- [android Package Manager (cmd package) help]()
 - [Ditto Clipboard Manager](#ditto-clipboard-manager)
 - [Frija - Samsung firmware downloader](#frija---samsung-firmware-downloader)
 - [Sublime Text](#sublime-text)
