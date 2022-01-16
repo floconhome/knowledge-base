@@ -9,6 +9,7 @@ Have fun :wink: !
 
 - [android Activity manager (am) help](#android-activity-manager-am-help)
 - [android Busybox 1.34.1-osm0sis help](#android-busybox-1341-osm0sis-help)
+- [android getprop usage](#android-getprop-usage)
 - [android Package Manager (cmd package) help](#android-package-manager-cmd-package-help)
 - [Ditto Clipboard Manager](#ditto-clipboard-manager)
 - [Frija - Samsung firmware downloader](#frija---samsung-firmware-downloader)
@@ -37,6 +38,61 @@ done
 ## android Activity manager (am) help
 - extracted from Android 10 from G960FXXSHFUJ2 stock firmware on 2022-01-16, thanks to this commande line: `am -h > /data/media/0/am.help.txt`
 - go to [help file](/files/am.help.txt)
+
+## android getprop usage
+:bulb: I use it in shell script to get a specific value of an adroid prop, like firmware build version, target sdk version, abi list, and so son
+- just enter `getprop` in command line to list all actives/running props with its corresponding value; output example (extract):
+```shell
+[ro.vendor.build.fingerprint]: [samsung/starltexx/starlte:10/QP1A.190711.020/G960FXXSHFUJ2:user/release-keys]
+[ro.vendor.build.id]: [QP1A.190711.020]
+[ro.vendor.build.security_patch]: []
+[ro.vendor.build.tags]: [release-keys]
+[ro.vendor.build.type]: [user]
+[ro.vendor.build.version.incremental]: [G960FXXSHFUJ2]
+[ro.vendor.build.version.release]: [10]
+[ro.vendor.build.version.sdk]: [29]
+[ro.vendor.build.version.sehi]: [2905]
+[ro.vendor.cscsupported]: [1]
+[ro.vendor.ddk.set.afbc]: [1]
+[ro.vendor.epdg.support]: [true]
+[ro.vendor.mg_factory_mode]: [0]
+[ro.vendor.multisim.simslotcount]: [2]
+[ro.vendor.product.cpu.abilist]: [arm64-v8a,armeabi-v7a,armeabi]
+[ro.vendor.product.cpu.abilist32]: [armeabi-v7a,armeabi]
+[ro.vendor.product.cpu.abilist64]: [arm64-v8a]
+[ro.vendor.product_ship]: [true]
+[ro.vendor.radio.default_network]: [9]
+[ro.vendor.radio.default_network_by]: [telephony.prop_9]
+[ro.vendor.sec.radio.def_network]: [9]
+[ro.vendor.security.vaultkeeper.id]: [o0blqW99le22Fb1H]
+[ro.vndk.version]: [29]
+[ro.wifi.channels]: []
+[ro.zygote]: [zygote64_32]
+[ro.zygote.disable_gl_preload]: [true]
+[sec.fle.encryption.status]: [decrypted]
+[secmm.codecsolution.ready]: [1]
+[security.ADP.policy_version]: [20191001]
+[security.ADP.version]: [3.0]
+[security.ASKS.policy_version]: [20200806]
+[security.ASKS.rufs_enable]: [true]
+```
+- we can get just one prop at time by entering target prop, for example `getprop ro.vendor.build.fingerprint`:
+```shell
+samsung/starltexx/starlte:10/QP1A.190711.020/G960FXXSHFUJ2:user/release-keys
+```
+- instead of prop value, we can get type or context:
+  - `getprop -T ro.vendor.build.fingerprint` will return `string`
+  - `getprop -Z ro.vendor.build.fingerprint` will return `u:object_r:vendor_default_prop:s0`
+- of course, we can pipe the `getprop` command to `grep` to get a list of prop containing a searching string; for example: `getprop | grep -i abi` will return:
+```shell
+[ro.product.cpu.abi]: [arm64-v8a]
+[ro.product.cpu.abilist]: [arm64-v8a,armeabi-v7a,armeabi]
+[ro.product.cpu.abilist32]: [armeabi-v7a,armeabi]
+[ro.product.cpu.abilist64]: [arm64-v8a]
+[ro.vendor.product.cpu.abilist]: [arm64-v8a,armeabi-v7a,armeabi]
+[ro.vendor.product.cpu.abilist32]: [armeabi-v7a,armeabi]
+[ro.vendor.product.cpu.abilist64]: [arm64-v8a]
+```
 
 ## android Package Manager (cmd package) help
 - extracted from Android 10 from G960FXXSHFUJ2 stock firmware on 2022-01-16, thanks to this commande line: `cmd package > /data/media/0/cmd.package.help.txt`
