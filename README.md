@@ -76,10 +76,7 @@ done
 [security.ASKS.policy_version]: [20200806]
 [security.ASKS.rufs_enable]: [true]
 ```
-- we can get just one prop at time by entering target prop, for example `getprop ro.vendor.build.fingerprint`:
-```shell
-samsung/starltexx/starlte:10/QP1A.190711.020/G960FXXSHFUJ2:user/release-keys
-```
+- we can get just one prop at time by entering target prop, for example `getprop ro.vendor.build.fingerprint` will return `samsung/starltexx/starlte:10/QP1A.190711.020/G960FXXSHFUJ2:user/release-keys`
 - instead of prop value, we can get type or context:
   - `getprop -T ro.vendor.build.fingerprint` will return `string`
   - `getprop -Z ro.vendor.build.fingerprint` will return `u:object_r:vendor_default_prop:s0`
