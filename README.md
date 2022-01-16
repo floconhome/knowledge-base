@@ -35,11 +35,11 @@ done
 - go to [help file](/files/busybox.1.34.1-osm0sis.help.txt)
 
 ## android Activity manager (am) help
-- extracted from Android 10 from G960FXXSHFUJ2 stock firmware on 2022-01-16
+- extracted from Android 10 from G960FXXSHFUJ2 stock firmware on 2022-01-16, thanks to this commande line: `am -h > /data/media/0/am.help.txt`
 - go to [help file](/files/am.help.txt)
 
 ## android Package Manager (cmd package) help
-- extracted from Android 10 from G960FXXSHFUJ2 stock firmware on 2022-01-16
+- extracted from Android 10 from G960FXXSHFUJ2 stock firmware on 2022-01-16, thanks to this commande line: `cmd package > /data/media/0/cmd.package.help.txt`
 - go to [help file](/files/cmd.package.help.txt)
 
 
