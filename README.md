@@ -11,7 +11,7 @@ Have fun :wink: !
 - [android Busybox 1.34.1-osm0sis help](#android-busybox-1341-osm0sis-help)
 - [android getprop usage](#android-getprop-usage)
 - [android Package Manager (cmd package) help](#android-package-manager-cmd-package-help)
-- [android SDK Platform Tools](android-sdk-latform-ools)
+- [android SDK Platform Tools](#android-sdk-platform-tools)
 - [Ditto Clipboard Manager](#ditto-clipboard-manager)
 - [Frija - Samsung firmware downloader](#frija---samsung-firmware-downloader)
 - [Sublime Text](#sublime-text)
