@@ -101,7 +101,7 @@ done
 - go to https://developer.android.com/studio/releases/platform-tools#downloads
 - choose your target platform (Windows, Linux or Mac)
 - download archive (about 11-13MB)
-- I put latest for Windows on 2022-01-19 in my github repository: (r31.0.3 August 2021) 
+- I put latest for Windows on 2022-01-19 in my github repository: [platform-tools_r31.0.3-windows.zip](tools/android/platform-tools_r31.0.3-windows.zip) (r31.0.3 August 2021) | sha256sum 0f4b8fdd26af2c3733539d6eebb3c2ed499ea1d4bb1f4e0ecc2d6016961a6e24
 
 ## Frija - Samsung firmware downloader
 - github repo: https://github.com/SlackingVeteran/frija/releases
