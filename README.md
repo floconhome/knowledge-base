@@ -7,10 +7,12 @@ Have fun :wink: !
 
 **Summary** _(alphabetical sort)_
 
-- [android Activity manager (am) help](#android-activity-manager-am-help)
+- [android Activity Manager (am) help](#android-activity-manager-am-help)
+- [Android Asset Packaging Tool 2 (aapt2)](#android-asset-packaging-tool-2-aapt2)
 - [android Busybox 1.34.1-osm0sis help](#android-busybox-1341-osm0sis-help)
 - [android getprop usage](#android-getprop-usage)
 - [android Package Manager (cmd package) help](#android-package-manager-cmd-package-help)
+- [android SDK Platform Tools](#android-sdk-platform-tools)
 - [Ditto Clipboard Manager](#ditto-clipboard-manager)
 - [Frija - Samsung firmware downloader](#frija---samsung-firmware-downloader)
 - [Sublime Text](#sublime-text)
@@ -35,9 +37,13 @@ done
 ```
 - go to [help file](/files/busybox.1.34.1-osm0sis.help.txt)
 
-## android Activity manager (am) help
+## android Activity Manager (am) help
 - extracted from Android 10 from G960FXXSHFUJ2 stock firmware on 2022-01-16, thanks to this commande line: `am -h > /data/media/0/am.help.txt`
 - go to [help file](/files/am.help.txt)
+
+## Android Asset Packaging Tool 2 (aapt2)
+- download description: https://developer.android.com/studio/command-line/aapt2#download_aapt2
+- download windows latest stable version (7.0.4-7396180 on 2022-01-19) from my github repository [aapt2-7.0.4-7396180-windows.zip](tools/android/aapt2-7.0.4-7396180-windows.zip) (sha256 081e534c2e8a29ce55b4a0b2550cf33ec12662a0791f6e425642d4702ba81b28) or from direct link to Google's Maven repository: https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/7.0.4-7396180/aapt2-7.0.4-7396180-windows.jar
 
 ## android getprop usage
 :bulb: I use it in shell script to get a specific value of an adroid prop, like firmware build version, target sdk version, abi list, and so son
@@ -95,6 +101,12 @@ done
 - extracted from Android 10 from G960FXXSHFUJ2 stock firmware on 2022-01-16, thanks to this commande line: `cmd package > /data/media/0/cmd.package.help.txt`
 - go to [help file](/files/cmd.package.help.txt)
 
+## android SDK Platform Tools
+- available tools: adb, sqlite3, fastboot (and others I do not use for now)
+- go to https://developer.android.com/studio/releases/platform-tools#downloads
+- choose your target platform (Windows, Linux or Mac)
+- download archive (about 11-13MB)
+- I put latest for Windows on 2022-01-19 in my github repository: [platform-tools_r31.0.3-windows.zip](tools/android/platform-tools_r31.0.3-windows.zip) (r31.0.3 August 2021) | sha256sum 0f4b8fdd26af2c3733539d6eebb3c2ed499ea1d4bb1f4e0ecc2d6016961a6e24
 
 ## Frija - Samsung firmware downloader
 - github repo: https://github.com/SlackingVeteran/frija/releases
