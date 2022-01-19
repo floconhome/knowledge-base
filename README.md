@@ -8,6 +8,7 @@ Have fun :wink: !
 **Summary** _(alphabetical sort)_
 
 - [android Activity manager (am) help](#android-activity-manager-am-help)
+- [Android Asset Package Tool 2 (aapt2)](#)
 - [android Busybox 1.34.1-osm0sis help](#android-busybox-1341-osm0sis-help)
 - [android getprop usage](#android-getprop-usage)
 - [android Package Manager (cmd package) help](#android-package-manager-cmd-package-help)
@@ -39,6 +40,10 @@ done
 ## android Activity manager (am) help
 - extracted from Android 10 from G960FXXSHFUJ2 stock firmware on 2022-01-16, thanks to this commande line: `am -h > /data/media/0/am.help.txt`
 - go to [help file](/files/am.help.txt)
+
+## Android Asset Package Tool 2 (aapt2)
+- download description: https://developer.android.com/studio/command-line/aapt2#download_aapt2
+- download windows latest stable version (7.0.4-7396180 on 2022-01-19) from my github repository ??? or from direct link to Google's Maven repository: https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/7.0.4-7396180/aapt2-7.0.4-7396180-windows.jar
 
 ## android getprop usage
 :bulb: I use it in shell script to get a specific value of an adroid prop, like firmware build version, target sdk version, abi list, and so son
