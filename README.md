@@ -11,6 +11,7 @@ Have fun :wink: !
 - [android Busybox 1.34.1-osm0sis help](#android-busybox-1341-osm0sis-help)
 - [android getprop usage](#android-getprop-usage)
 - [android Package Manager (cmd package) help](#android-package-manager-cmd-package-help)
+- [android SDK Platform Tools](android-sdk-latform-ools)
 - [Ditto Clipboard Manager](#ditto-clipboard-manager)
 - [Frija - Samsung firmware downloader](#frija---samsung-firmware-downloader)
 - [Sublime Text](#sublime-text)
@@ -95,6 +96,12 @@ done
 - extracted from Android 10 from G960FXXSHFUJ2 stock firmware on 2022-01-16, thanks to this commande line: `cmd package > /data/media/0/cmd.package.help.txt`
 - go to [help file](/files/cmd.package.help.txt)
 
+## android SDK Platform Tools
+- available tools: adb, sqlite3, fastboot (and others I do not use for now)
+- go to https://developer.android.com/studio/releases/platform-tools#downloads
+- choose your target platform (Windows, Linux or Mac)
+- download archive (about 11-13MB)
+- I put latest for Windows on 2022-01-19 in my github repository: (r31.0.3 August 2021) 
 
 ## Frija - Samsung firmware downloader
 - github repo: https://github.com/SlackingVeteran/frija/releases
