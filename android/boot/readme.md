@@ -1,1 +1,2 @@
-__test__
+AP_G960FXXSHFUJ2.zip contains stock and magisk 24.1 (24100) patched boot.img files  
+zip file sha256 sum: 1FEC0B0B3220ADEDE681AD4F911357CCA66DF8CDA1BCBB9D02CD9F93714266BB
