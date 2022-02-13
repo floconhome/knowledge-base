@@ -15,7 +15,7 @@ Have fun :wink: !
 - [android SDK Platform Tools](#android-sdk-platform-tools)
 - [Ditto Clipboard Manager](#ditto-clipboard-manager)
 - [Frija - Samsung firmware downloader](#frija---samsung-firmware-downloader)
-- Some android databases location
+- [Some android databases location](#some-android-databases-location)
 - [Sublime Text](#sublime-text)
   
   
