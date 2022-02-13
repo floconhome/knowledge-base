@@ -15,27 +15,11 @@ Have fun :wink: !
 - [android SDK Platform Tools](#android-sdk-platform-tools)
 - [Ditto Clipboard Manager](#ditto-clipboard-manager)
 - [Frija - Samsung firmware downloader](#frija---samsung-firmware-downloader)
-- [Some android databases location](#some-android-databases-location)
 - [Sublime Text](#sublime-text)
   
   
 ---  
   
-
-## Some android databases location
-- each of underneath databases path can be found in /data/system/packages.list, an android file where, among other things, all applications inserts its effective data path; you will need root access
-- phone blocked numbers
-  - package: 
-  - path: /data/
-- calendars provider
-  - package: 
-  - path: /data/
-- contacts provider
-  - package: 
-  - path: /data/
-- MMS/SMS provider
-  - package: 
-  - path: /data/
 
 ## android Busybox 1.34.1-osm0sis help
 - extracted with this script:
