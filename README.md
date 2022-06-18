@@ -46,7 +46,7 @@ done
 - download windows latest stable version (7.0.4-7396180 on 2022-01-19) from my github repository [aapt2-7.0.4-7396180-windows.zip](tools/android/aapt2-7.0.4-7396180-windows.zip) (sha256 081e534c2e8a29ce55b4a0b2550cf33ec12662a0791f6e425642d4702ba81b28) or from direct link to Google's Maven repository: https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/7.0.4-7396180/aapt2-7.0.4-7396180-windows.jar
 
 ## android getprop usage
-:bulb: I use it in shell script to get a specific value of an adroid prop, like firmware build version, target sdk version, abi list, and so son
+:bulb: I use it in shell script to get a specific value of an android prop, like firmware build version, target sdk version, abi list, and so on
 - just enter `getprop` in command line to list all actives/running props with its corresponding value; output example (extract):
 ```shell
 [ro.vendor.build.fingerprint]: [samsung/starltexx/starlte:10/QP1A.190711.020/G960FXXSHFUJ2:user/release-keys]
