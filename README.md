@@ -15,6 +15,7 @@ Have fun :wink: !
 - [android SDK Platform Tools](#android-sdk-platform-tools)
 - [Ditto Clipboard Manager](#ditto-clipboard-manager)
 - [Frija - Samsung firmware downloader](#frija---samsung-firmware-downloader)
+- [MobaXterm, an enhanced terminal for Windows](#)
 - [Sublime Text](#sublime-text)
   
   
@@ -118,6 +119,11 @@ done
 ![Frija main window](/screenshot/frija/frija.main.window.png.settings.png)
 ![Frija main window](/screenshot/frija/frija.settings.png)
   
+## MobaXterm, an enhanced terminal for Windows
+- site: https://mobaxterm.mobatek.net
+- a very nice tool I use in professional and personal use for years, to have a Linux terminal at hand, for greping some plain text files, connecting to my VPS through SSH, or connecting to iot object I use at home
+- it can have some Linux tools, useful for extending possibilities
+
 ## Sublime Text
 - web site: https://www.sublimetext.com/
 - this greatful text tool is usefull for organising note taking and project code; I use it in professionnal context to organise my notes from a folder on my computer, read some data text files; in personal context, it helps me for android project, reading text and binary file; moreover, I especially like the dark theme and the syntaxic colors theme: it is eye relaxing
