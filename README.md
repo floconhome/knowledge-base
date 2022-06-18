@@ -124,8 +124,8 @@ done
 - in the second screenshot, I present you what is usefull for my usage:
 1. the vertical left banner helps me see my folders/files tree, quickly having a look where I want to go
 1. the main window, in dark theme, with syntaxic color theme
-1. the global view on the right helps me quickly navigate throw the file being displayed in the main window; I win time when I use it
-1. the search location on the bottom of the window can be used to search anything in the file displayed in the main window, and more, throw the folders/files tree in the vertical left banner; I do not use it often, but when I need, it is helpful
+1. the global view on the right helps me quickly navigate through the file being displayed in the main window; I win time when I use it
+1. the search location on the bottom of the window can be used to search anything in the file displayed in the main window, and more, through the folders/files tree in the vertical left banner; I do not use it often, but when I need, it is helpful
   
 ![Sublime Text main window](/screenshot/sublimetext/sublimetext.main.window.png)
 ![Sublime Text main window with explanations](/screenshot/sublimetext/sublimetext.main.window.explanations.png)
