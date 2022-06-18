@@ -5,7 +5,7 @@
 
 Have fun :wink: !
 
-**Summary** _(alphabetical sort)_
+**Summary**
 
 - [android Activity Manager (am) help](#android-activity-manager-am-help)
 - [Android Asset Packaging Tool 2 (aapt2)](#android-asset-packaging-tool-2-aapt2)
@@ -15,7 +15,7 @@ Have fun :wink: !
 - [android SDK Platform Tools](#android-sdk-platform-tools)
 - [Ditto Clipboard Manager](#ditto-clipboard-manager)
 - [Frija - Samsung firmware downloader](#frija---samsung-firmware-downloader)
-- [MobaXterm, an enhanced terminal for Windows](#)
+- [MobaXterm, an enhanced terminal for Windows](#mobaXterm-an-enhanced-terminal-for-windows)
 - [Sublime Text](#sublime-text)
   
   
